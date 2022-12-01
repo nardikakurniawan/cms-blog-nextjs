@@ -17,7 +17,7 @@ const PostWidget = ({ categories, slug }) => {
         setRelatedPosts(result);
       });
     }
-  }, [slug]);
+  }, [slug, categories]);
 
   return (
     <div className="bg-white shadow-lg rounded-lg p-8 mb-8">
